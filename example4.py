@@ -1,7 +1,12 @@
-#Update the first set with items that don't exist in the second set
+#Initialize dictionary with default values
 
-s1={10,20,30,40,50}
-s2={30,40,50,60,70}
+employees=['kelly','Emma']
+defaults={"designation": 'developer',"salary":80000}
 
-s2.difference_update(s1)
-print(s2)
+res=dict.fromkeys(employees,defaults)
+print(res)
+
+
+
+print(res["kelly"])
+1

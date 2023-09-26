@@ -1,7 +1,12 @@
-#remove items from the set at once
+#Rename key of a dictionary
 
-s1={10,20,30,40,50}
+sample_dict={
+    "name":"kelly",
+    "age":25,
+    "salary":8000,
+    "city":"newyork"
+    }
 
 
-s1.difference_update({10,20,30})
-print(s1)
+sample_dict['location']=sample_dict.pop('city')
+print(sample_dict)

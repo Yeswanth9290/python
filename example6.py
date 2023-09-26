@@ -1,10 +1,10 @@
-#check if two sets have any elements in common if yes,display the common elements
+#change value of key in a nested dictionary
 
-s1={10,20}
-s2={30,40,50,60,70}
-
-if s1.isdisjoint(s2):
-    print("two sets have no common items")
-else:
-    print("two sets have common items")
-    print(s1.intersection(s2))
+dict={
+    'emp1':{'name':'jhon','salary':7500},
+    'emp2':{'name':'emma','salary':8000},
+    'emp3':{'name':'brad','salary':500},
+    }
+    
+dict['emp3']['salary']=8500
+print(dict)

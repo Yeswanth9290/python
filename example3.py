@@ -1,7 +1,15 @@
-#Get Only unique items from the sets
+#print the values of key 'history' from the below dict
 
 
-s1={10,20,30,40,50}
-s2={30,40,50,60,70}
-
-print(s1.union(s2))
+sampleDict={
+    "class":{
+        "student":{
+            "name":"mike",
+              "marks": {
+                "physics":70,
+                "history":80
+                }
+            }
+        }
+    }
+print(sampleDict['class']['student']['marks']['physics'])

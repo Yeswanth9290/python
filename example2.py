@@ -1,5 +1,11 @@
-#Return a new set of identical items from two sets
+#creating Dict
 
-s1={10,20,30,40,50}
-s2={30,40,50,60,70}
-print(s1.intersection(s2))
+
+dict={1:'happy',2:'with',3:'you'}
+print("\nDictionary with use of integer keys: ")
+print(dict)
+
+
+dict={'name':'sameera','middle':'bheri','lastname':'B'}
+print("\nDictionary with use of string keys: ")
+print(dict)
