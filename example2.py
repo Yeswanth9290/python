@@ -1,10 +1,5 @@
-#to display lowercase letters
+#Return a new set of identical items from two sets
 
-
-
-word="AmaZOn"
-res= " "
-for ch in word:
-    if ch>='a' and ch<='z':
-        res=res+ch
-print(res)
+s1={10,20,30,40,50}
+s2={30,40,50,60,70}
+print(s1.intersection(s2))

@@ -1,8 +1,7 @@
-#count total number of vowels
+#remove items from the set at once
 
-word=input("enter a word: ")
-counter=0
-for ch in word:
-    if ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u':
-        counter=counter+1
-print(f"Total number of vowels:{counter} from the given word:{word}")
+s1={10,20,30,40,50}
+
+
+s1.difference_update({10,20,30})
+print(s1)

@@ -1,10 +1,7 @@
-#total number of vowels
+#Update the first set with items that don't exist in the second set
 
+s1={10,20,30,40,50}
+s2={30,40,50,60,70}
 
-word=input("enter a word: ")
-counter=0
-for ch in word:
-    if ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u':
-        counter=counter+1
-print(f"Total number of vowels:{counter} from the given word:{word}")
-    
+s2.difference_update(s1)
+print(s2)

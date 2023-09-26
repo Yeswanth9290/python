@@ -1,7 +1,7 @@
-#reverse a string
+#Get Only unique items from the sets
 
-str1 = "vedhu"
-print("Original String is:", str1)
 
-str1 = str1[::-1]
-print("Reversed String is:", str1)
+s1={10,20,30,40,50}
+s2={30,40,50,60,70}
+
+print(s1.union(s2))
